@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="drools-helloworld-demo" />
         <module name="reactor-demo" />
-        <module name="simple-jdbc-demo" />
-        <module name="lambda-demo" />
-        <module name="binarytree-demo" />
-        <module name="proxy-demo" />
-        <module name="mongo-demo" />
-        <module name="webflux-mongodb-demo" />
-        <module name="datasource-demo" />
-        <module name="nestedclass-demo" />
-        <module name="hutool-demo" />
-        <module name="generic-paradigm-demo" />
-        <module name="webflux-demo" />
-        <module name="multi-datasource-demo" />
-        <module name="netty-demo" />
         <module name="druid-demo" />
-        <module name="aop-demo" />
-        <module name="redis-demo" />
-        <module name="cache-demo" />
-        <module name="webflux-restful-demo" />
         <module name="redis-reactive-demo" />
+        <module name="annotation-demo" />
+        <module name="generic-paradigm-demo" />
+        <module name="utils-demo" />
+        <module name="ma-demo" />
+        <module name="redis-demo" />
+        <module name="webflux-mongodb-demo" />
+        <module name="binarytree-demo" />
+        <module name="webflux-restful-demo" />
+        <module name="drools-helloworld-demo" />
+        <module name="spring-bucks-demo" />
+        <module name="helloworld-demo" />
+        <module name="nestedclass-demo" />
+        <module name="aop-demo" />
+        <module name="programmatic-transaction-demo" />
+        <module name="netty-demo" />
+        <module name="webflux-demo" />
         <module name="errorcode-demo" />
+        <module name="multi-datasource-demo" />
+        <module name="hutool-demo" />
+        <module name="lambda-demo" />
+        <module name="proxy-demo" />
+        <module name="jpa-demo" />
+        <module name="datasource-demo" />
         <module name="janino-demo" />
         <module name="mybatis-demo" />
-        <module name="spring-bucks-demo" />
-        <module name="utils-demo" />
-        <module name="helloworld-demo" />
-        <module name="jpa-demo" />
+        <module name="simple-jdbc-demo" />
         <module name="mina-demo" />
-        <module name="annotation-demo" />
-        <module name="programmatic-transaction-demo" />
+        <module name="mongo-demo" />
+        <module name="cache-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="annotation-demo" target="1.8" />
       <module name="aop-demo" target="1.8" />
       <module name="binarytree-demo" target="1.8" />
@@ -55,6 +57,7 @@
       <module name="janino-demo" target="1.8" />
       <module name="jpa-demo" target="1.8" />
       <module name="lambda-demo" target="1.8" />
+      <module name="ma-demo" target="1.8" />
       <module name="mina-demo" target="1.8" />
       <module name="mongo-demo" target="1.8" />
       <module name="multi-datasource-demo" target="1.8" />
@@ -75,6 +78,7 @@
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="annotation-demo" options="-parameters" />
       <module name="aop-demo" options="-parameters" />
@@ -90,6 +94,7 @@
       <module name="janino-demo" options="-parameters" />
       <module name="jpa-demo" options="-parameters" />
       <module name="lambda-demo" options="-parameters" />
+      <module name="ma-demo" options="-parameters" />
       <module name="mina-demo" options="-parameters" />
       <module name="mongo-demo" options="-parameters" />
       <module name="multi-datasource-demo" options="-parameters" />

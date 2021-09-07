@@ -37,8 +37,11 @@
         <option value="$PROJECT_DIR$/mongo-demo/pom.xml" />
         <option value="$PROJECT_DIR$/binarytree-demo/pom.xml" />
         <option value="$PROJECT_DIR$/drools-helloworld-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ma-demo/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$USER_HOME$/Documents/ideaout" />
+  </component>
 </project>

@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/janino-demo/janino-demo.iml" filepath="$PROJECT_DIR$/janino-demo/janino-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-demo/jpa-demo.iml" filepath="$PROJECT_DIR$/jpa-demo/jpa-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambda-demo/lambda-demo.iml" filepath="$PROJECT_DIR$/lambda-demo/lambda-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-demo/learn-demo.iml" filepath="$PROJECT_DIR$/learn-demo/learn-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ma-demo/ma-demo.iml" filepath="$PROJECT_DIR$/ma-demo/ma-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mina-demo/mina-demo.iml" filepath="$PROJECT_DIR$/mina-demo/mina-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongo-demo/mongo-demo.iml" filepath="$PROJECT_DIR$/mongo-demo/mongo-demo.iml" />

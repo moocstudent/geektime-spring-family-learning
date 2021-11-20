@@ -18,6 +18,7 @@
         <module name="redis-demo" />
         <module name="webflux-mongodb-demo" />
         <module name="binarytree-demo" />
+        <module name="clazz-demo" />
         <module name="webflux-restful-demo" />
         <module name="drools-helloworld-demo" />
         <module name="spring-bucks-demo" />
@@ -47,6 +48,7 @@
       <module name="aop-demo" target="1.8" />
       <module name="binarytree-demo" target="1.8" />
       <module name="cache-demo" target="1.8" />
+      <module name="clazz-demo" target="1.8" />
       <module name="datasource-demo" target="1.8" />
       <module name="drools-helloworld-demo" target="1.8" />
       <module name="druid-demo" target="1.8" />
@@ -84,6 +86,7 @@
       <module name="aop-demo" options="-parameters" />
       <module name="binarytree-demo" options="-parameters" />
       <module name="cache-demo" options="-parameters" />
+      <module name="clazz-demo" options="-parameters" />
       <module name="datasource-demo" options="-parameters" />
       <module name="drools-helloworld-demo" options="-parameters" />
       <module name="druid-demo" options="-parameters" />

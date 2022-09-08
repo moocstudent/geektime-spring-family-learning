@@ -10,6 +10,15 @@ public class SwapArrayTest {
      * 今天有位面试官问了一个常见的小算法题
      * 有个数组大小10，需要将整个数组元素进行倒置
      * 那么我感觉应该是这样来解决的
+     *
+     * 在写完博客之后
+     * 我又进行思考，面试官究竟问得是将有序数组得前后置换
+     * 还是将无序得数组进行从大到小到排列
+     * 我已经记不清了（其实应该是前后倒置，因为我回答出SwapArrayMethod2Test中到方式到时候，
+     * 其实是感觉到了面试官到默许的）
+     *
+     * 而其实如果只有10个数字，是完全可以使用Integer数组来进行sort(arr,(a,b)->b-a)这样倒置的
+     * 所以说我的博客写的名字逆序不对，应该是倒置才对的。
      */
     public static void main(String[] args) throws InterruptedException {
 

@@ -24,11 +24,11 @@
         <module name="spring-bucks-demo" />
         <module name="helloworld-demo" />
         <module name="nestedclass-demo" />
-        <module name="aop-demo" />
         <module name="programmatic-transaction-demo" />
+        <module name="aop-demo" />
         <module name="netty-demo" />
-        <module name="webflux-demo" />
         <module name="errorcode-demo" />
+        <module name="webflux-demo" />
         <module name="multi-datasource-demo" />
         <module name="hutool-demo" />
         <module name="lambda-demo" />

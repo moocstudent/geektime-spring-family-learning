@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm-demo/algorithm-demo.iml" filepath="$PROJECT_DIR$/algorithm-demo/algorithm-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotation-demo/annotation-demo.iml" filepath="$PROJECT_DIR$/annotation-demo/annotation-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop-demo/aop-demo.iml" filepath="$PROJECT_DIR$/aop-demo/aop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atomic-demo/atomic-demo.iml" filepath="$PROJECT_DIR$/atomic-demo/atomic-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/binarytree-demo/binarytree-demo.iml" filepath="$PROJECT_DIR$/binarytree-demo/binarytree-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache-demo/cache-demo.iml" filepath="$PROJECT_DIR$/cache-demo/cache-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/clazz-demo/clazz-demo.iml" filepath="$PROJECT_DIR$/clazz-demo/clazz-demo.iml" />

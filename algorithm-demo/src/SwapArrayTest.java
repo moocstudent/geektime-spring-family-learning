@@ -11,13 +11,21 @@ public class SwapArrayTest {
      * 有个数组大小10，需要将整个数组元素进行倒置
      * 那么我感觉应该是这样来解决的
      */
-    public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7,8,9,10,11};
-        for(int i=0;i<arr.length/2;i++){
-            swap(i,arr.length-1-i,arr);
-        }
+    public static void main(String[] args) throws InterruptedException {
 
-        Arrays.stream(arr).forEach(System.out::println);
+
+        int[] arr = TheArrays.arr;
+
+        long timeMillis = System.currentTimeMillis();
+        for(int i=0;i<arr.length/2;i++){
+//            swap(i,arr.length-1-i,arr);
+            int temp = arr[i];
+            arr[i] = arr[arr.length-1-i];
+            arr[arr.length-1-i] = temp;
+        }
+        System.out.println(System.currentTimeMillis()-timeMillis+"ms");
+//        Thread.sleep(10000);
+//        Arrays.stream(arr).forEach(System.out::println);
         /**
          * 虽然每个元素都进行来移动，但是是在原数组空间上进行交换
          * 所以是原地排序
@@ -28,7 +36,8 @@ public class SwapArrayTest {
          * 而交换是声明的int temp
          * 可以说每次n/2的数据过来作为一个缓存
          * 但是每次都只是赋值给temp并没有temp2
-         * 那么空间复杂度也为O（1））
+         * 加上占用次数n/2
+         * 那么空间复杂度也为O（n/2）
          */
 
     }
